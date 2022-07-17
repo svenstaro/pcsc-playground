@@ -1,0 +1,16 @@
+[package]
+name = "pcsc-playground"
+version = "0.1.0"
+edition = "2021"
+resolver = "2"
+
+[dependencies]
+pcsc = "2"
+anyhow = "1"
+log = "0.4"
+clap = { version = "3.2", features = ["derive", "cargo", "wrap_help"] }
+regex = "1"
+
+[build-dependencies]
+anyhow = "1"
+ureq = "2.5"
